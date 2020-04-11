@@ -1,5 +1,4 @@
 import pyttsx3
-import time
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
