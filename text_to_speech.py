@@ -1,7 +1,7 @@
 import pyttsx3
 
 engine = pyttsx3.init()
-voices = engine.getProperty('voices')
+#voices = engine.getProperty('voices')
 engine.setProperty("voice","american")
 engine.say("welcome sir. please wait while i initialize the program")
 engine.runAndWait()
